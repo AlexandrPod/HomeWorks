@@ -1,0 +1,78 @@
+JSON
+ 1. Создать внешний репозиторий c названием JSON.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"JSON"}'
+ 2. Клонировать репозиторий JSON на локальный компьютер.  -  git clone https://github.com/AlexandrPod/JSON
+ 3. Внутри локального JSON создать файл “new.json”.  -  cd JSON & touch new.json
+ 4. Добавить файл под гит.  -  git add new.json
+ 5. Закоммитить файл.  -  git commit -m "the one w"
+ 6. Отправить файл на внешний GitHub репозиторий.  -  git push
+ 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.  -  echo -e '{\n"full name": "Podstreshniy Alexandr Sergeevich",\n"age": "32",\n"pets": "one cat",\n"salary": "1000$"\n}' > new.json
+
+ 8. Отправить изменения на внешний репозиторий.  -  git add new.json && git commit -m "Add info about me" && git push
+ 9. Создать файл preferences.json  -  touch preferences.json
+ 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.  -  echo -e '{\n"favorite movie": "The Matrix",\n"favorite serial": "Mandalorian",\n"favorite food": "rice with chicken",\n"favorite time year": "summer",\n"country want to visit": "Japan"\n}' > preferences.json
+
+ 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON  -  touch sklls.json ; echo -e '{\n"Skills": [\n "Functional and non-functional testing",\n "Test design techniques",\n "Understanding programming languages",\n "Understanding the systems specifications",\n "Pumping soft skills"\n ]\n}' > sklls.json
+
+ 12. Отправить сразу 2 файла на внешний репозиторий.  -  git add preferences.json sklls.json && git commit -m "Add info about me" && git push
+
+ 13. На веб интерфейсе создать файл bug_report.json.  -  add file > create new file
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.  -  edit this file
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
+ 17. Синхронизировать внешний и локальный репозиторий JSON  -  git pull
+
+
+
+
+XML
+ 1. Создать внешний репозиторий c названием XML.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"XML"}'
+ 2. Клонировать репозиторий XML на локальный компьютер.  -  git clone https://github.com/AlexandrPod/XML
+ 3. Внутри локального XML создать файл “new.xml”.  -  cd XML & touch new.xml
+ 4. Добавить файл под гит.  -  git add new.xml
+ 5. Закоммитить файл.  -  git commit -m "the one XML"
+ 6. Отправить файл на внешний GitHub репозиторий.  -  git push
+ 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  -  echo -e '<info>\n<fullName>Podstreshniy Alexandr Sergeevich</fullName>\n<age>32</age>\n<pets>one cat</pets>\n<salary>1000$</salary>\n</info>' > new.xml
+
+ 8. Отправить изменения на внешний репозиторий.  -  git add new.xml && git commit -m "Add info about me" && git push
+
+ 9. Создать файл preferences.xml  -  touch preferences.xml
+ 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  -  echo -e '<preferences>\n<favoriteMovie>The Matrix</favoriteMovie>\n<favoriteSerial>Mandalorian</favoriteSerial>\n<favoriteFood>rice with chicken</favoriteFood>\n<favoriteTimeYear>summer</favoriteTimeYear>\n<countryVisit>Japan</countryVisit>\n</preferences>' > preferences.xml
+
+ 11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  -  echo -e '<skills>\n<skills1>Functional and non-functional testing</skills1>\n<skills2>Test design techniques</skills2>\n<skills3>Understanding programming languages</skills3>\n<skills4>Understanding the systems specifications</skills4>\n<skills5>Pumping soft skills</skills5>\n</skills>' > sklls.xml
+
+ 12. Сделать коммит в одну строку.  -  git add sklls.xml && git commit -m "Info about Skills"
+ 13. Отправить сразу 2 файла на внешний репозиторий.  -  git add preferences.xml sklls.xml && git commit -m "Add info" && git push
+
+ 14. На веб интерфейсе создать файл bug_report.xml.  - add file > create new file
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
+ 16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  -  edit this file
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
+ 18. Синхронизировать внешний и локальный репозиторий XML  -  git pull
+
+
+
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"TXT"}'
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.  -  git clone https://github.com/AlexandrPod/TXT
+ 3. Внутри локального TXT создать файл “new.txt”.  -  cd TXT & touch new.txt
+ 4. Добавить файл под гит.  -  git add new.txt
+ 5. Закоммитить файл.  -  git commit -m "the one txt"
+ 6. Отправить файл на внешний GitHub репозиторий.  -  git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.  -  echo -e 'Full name - Podstreshniy Alexandr Sergeevich\nAge - 32\nPets - one cat\nSalary - 1000$' > new.txt
+
+ 8. Отправить изменения на внешний репозиторий.  -  git add new.txt && git commit -m "Add info about me" && git push
+
+ 9. Создать файл preferences.txt  -  touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.  -  echo -e 'Favorite movie - The Matrix\nFavorite serial - Mandalorian\nFavorite food - rice with chicken\nFavorite time year - summer\nCountry want to visit - Japan' > preferences.txt
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT  -  touch sklls.txt ; echo -e 'Skills: Functional and non-functional testing, Test design techniques, Understanding programming languages, Understanding the systems specifications, Pumping soft skills' > sklls.txt
+
+ 12. Сделать коммит в одну строку.  -  git add sklls.txt && git commit -m "Info about Skills"
+ 13. Отправить сразу 2 файла на внешний репозиторий.  -  git add preferences.txt sklls.txt && git commit -m "Add info" && git push
+ 14. На веб интерфейсе создать файл bug_report.txt.  -  add file > create new file
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.  -  edit this file
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT  -  git pull
