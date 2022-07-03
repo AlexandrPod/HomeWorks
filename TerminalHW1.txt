@@ -4,7 +4,7 @@ Linux terminal (GitBash) commands
 Нужно уметь делать все пункты задания.
 Куда и в каком виде отправлять задание - скажу позже.
 
-1) Посмотреть где я - pwd
+1) Посмотреть где я - pwd 
 2) Создать папку - mkdir foldername
 3) Зайти в папку - cd foldername
 4) Создать 3 папки - mkdir foldername foldername foldername
