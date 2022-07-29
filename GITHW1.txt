@@ -2,7 +2,7 @@ JSON
  1. Создать внешний репозиторий c названием JSON.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"JSON"}'
  2. Клонировать репозиторий JSON на локальный компьютер.  -  git clone https://github.com/AlexandrPod/JSON
  3. Внутри локального JSON создать файл “new.json”.  -  cd JSON & touch new.json
- 4. Добавить файл под гит.  -  git add new.json
+ 4. Добавить файл под гит.  -  git add new.json  
  5. Закоммитить файл.  -  git commit -m "the one w"
  6. Отправить файл на внешний GitHub репозиторий.  -  git push
  7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.  -  echo -e '{\n"full name": "Podstreshniy Alexandr Sergeevich",\n"age": "32",\n"pets": "one cat",\n"salary": "1000$"\n}' > new.json
@@ -75,4 +75,4 @@ TXT
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.  -  edit this file
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  -  commit changes
- 18. Синхронизировать внешний и локальный репозиторий TXT  -  git pull
+ 18. Синхронизировать внешний и локальный репозиторий TXT  -  git pull  
