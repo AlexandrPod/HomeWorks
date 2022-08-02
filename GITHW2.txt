@@ -46,4 +46,4 @@ ER: Installing the app on the phone
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  -  pull request > compare & pull request > create pull request
 
-10. Синхронизировать Внешнюю и Локальную ветки Main  -  git pull
+10. Синхронизировать Внешнюю и Локальную ветки Main  -  git pull    
