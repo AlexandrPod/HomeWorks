@@ -99,7 +99,6 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 
-
 ==================
 
 EP_6
