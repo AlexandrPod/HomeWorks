@@ -23,4 +23,4 @@ e.g. function getWordStructure(word)
 4**. Написать функцию, которая проверяет, является ли слово палиндромом
 e.g. function isPalindrom(word)
 
-Проверки: 'abba', 'Abba'
+Проверки: 'abba', 'Abba'  
