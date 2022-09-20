@@ -27,7 +27,6 @@ Linux terminal (GitBash) commands
 20) вывести дату и время - date
 =========
 
-
 Задание *
 1) Отправить http запрос на сервер. - curl http://162.55.220.72:5005/terminal-hw-request
 
