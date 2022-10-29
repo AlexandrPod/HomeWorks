@@ -1,4 +1,5 @@
 JSON
+
  1. Создать внешний репозиторий c названием JSON.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"JSON"}'
  2. Клонировать репозиторий JSON на локальный компьютер.  -  git clone https://github.com/AlexandrPod/JSON
  3. Внутри локального JSON создать файл “new.json”.  -  cd JSON & touch new.json
@@ -25,6 +26,7 @@ JSON
 
 
 XML
+
  1. Создать внешний репозиторий c названием XML.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"XML"}'
  2. Клонировать репозиторий XML на локальный компьютер.  -  git clone https://github.com/AlexandrPod/XML
  3. Внутри локального XML создать файл “new.xml”.  -  cd XML & touch new.xml
@@ -53,6 +55,7 @@ XML
 
 
 TXT
+
  1. Создать внешний репозиторий c названием TXT.  -  curl -u 'AlexandrPod' https://api.github.com/user/repos -d'{"name":"TXT"}'
 
  2. Клонировать репозиторий TXT на локальный компьютер.  -  git clone https://github.com/AlexandrPod/TXT
